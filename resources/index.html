@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Relógio Pomodoro</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="contentWrapper">
+      <div class="top">
+        <img src="./icons/pomodoro.png" width="40" alt="Tomate Pomodoro">
+        <h1>Relógio Pomodoro</h1>
+      </div>
+        <div id="container">
+          <div class="work">
+            <h3 id="work" class="label">Pomodoro</h3>
+            
+            <div id="work-timer" class="timer">
+              <p id="w_minutes">25</p>
+              <p class="semicolon">:</p>
+              <p id="w_seconds">00</p>
+            </div>
+            <button id="start" class="btn">Iniciar</button>
+          </div>
+          
+          <div class="break-time">
+            <h3 id="break" class="label">Pausas</h3>
+            
+            <div id="break-timer" class="timer">
+              <p id="b_minutes">5</p>
+              <p class="semicolon">:</p>
+              <p id="b_seconds">00</p>
+            </div>
+            <button id="stop" class= "btn">Pausar</button>
+          </div>
+          
+          <div class="cycles">
+            <h3 id="cycles" class="label">Ciclos</p>
+            <p id="counter" class="timer">0</p>
+            <button id="reset" class="btn">Resetar</button>
+          </div> 
+      </div>
+      </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
