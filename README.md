@@ -17,18 +17,30 @@
 </p>
 
 
-| Website | Author | Post |
-| :--: | :-- |:--: |
-| <img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white"/> | Carlos Alves | [Neutralinojs - Alternativa para o Electron](https://dev.to/eucarlos/neutralinojs-alternativa-para-o-electron-41g4) |
+| Website | Author | Type | Post Name |
+| :-----: | :----: | :--: |:---- |
+| <img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white"/> | Carlos Alves | Article | [PT-BR] [Neutralinojs - Alternativa para o Electron](https://dev.to/eucarlos/neutralinojs-alternativa-para-o-electron-41g4) |
 
 ___
 ### Installation
+Install Neutralinojs:
+
+    $ npm i -g @neutralinojs/neu
 
 Clone the repo:
 
-    git clone https://github.com/EuCarlos/neu-to-devto.git && cd neu-to-devto
+    $ git clone https://github.com/EuCarlos/neu-to-devto.git && cd neu-to-devto
 
+### Run the project
+
+Start the project:
+
+    $ neu run
+
+Build the project:
+
+    $ neu build
 ___
 <p align="center">
-Created with heart 💜 by <a href="https://github.com/eucarlos/">Carlos Alves</a>
+Created with 💜 by <a href="https://github.com/eucarlos/">Carlos Alves</a>
 </p>
