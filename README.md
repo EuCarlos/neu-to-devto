@@ -40,6 +40,35 @@ Start the project:
 Build the project:
 
     $ neu build
+
+### Project image
+<p align="center"><img src="https://res.cloudinary.com/practicaldev/image/fetch/s--Q_LXnIaC--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xz471w4a60ry69p8092z.png" alt="project image"/></p>
+
+### Exetables
+in the zipped files in `executable.zip` contains 3 files:
+- pomodoro-win_x64.exe: It is to run on Windows.
+- pomodoro-linux_x64: It is to run on linux.
+- pomodoro-mac_x64: It is to run on Mac OS.
+
+### Folder structure
+```
+.
+├── .tmp
+│    └──  auth_info.json
+├── bin
+│    ├── neutralino-linux_x64
+│    ├── neutralino-mac_x64
+│    └── neutralino-win_x64.exe
+├── resources
+│        ├── icons
+│        ├── js
+│        ├── index.html
+│        └── styles.css
+├── LICENSE
+├── neutralino.log
+└── README.md
+
+```
 ___
 <p align="center">
 Created with 💜 by <a href="https://github.com/eucarlos/">Carlos Alves</a>
