@@ -1,4 +1,5 @@
-# LandPage React
+# Neutralino article on dev.to
+_Para a versão em português deste README, [clique aqui](/locales/pt_BR/README.md)._
 ## Project description
 
 <p align="center">
